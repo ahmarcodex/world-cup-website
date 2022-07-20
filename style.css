@@ -10,7 +10,8 @@ body {
     margin: 70px;
     width: 90%;
     height: 400px;
-    padding: 20px 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
 }
 
 .text-color {
@@ -27,34 +28,39 @@ body {
     border-radius: 5px;
 }
 
+.middle-group {
+    display: flex;
+}
+
 .upcoming-match {
+    display: center;
     background-color: black;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 260px;
+    border-radius: 10px;
 
 }
 
 .upcoming-group {
+    display: flex;
     text-decoration: none;
     background-color: white;
     color: black;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 5px;
     font-weight: 100;
-
-
-
+    width: 100px;
 }
 
 .blog {
+    display: flex;
     text-decoration: none;
     background-color: red;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 100;
-
-
+    width: 100px;
 }
 
 .goal {
@@ -71,3 +77,24 @@ body {
     color: rgba(245, 245, 245, 0.712);
     font-size: 9px;
 }
+
+.live-transfer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.transfer {
+    background-color: wheat;
+    color: black;
+    text-decoration: none;
+    padding: 0px 15px;
+    border-radius: 5px;
+    font-weight: 50;
+    border: thistle;
+}
+
+.over-transfer {
+    display: flex;
+}
+
+.time {}

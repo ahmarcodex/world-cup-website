@@ -120,3 +120,30 @@ body {
     margin-left: 20px;
     justify-content: space-between;
 }
+
+
+@media only screen and (max-width:688px) {
+
+
+    .live-transfer,
+    .blog-image img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+}
+
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+
+    .live-transfer,
+    .blog-image img {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}

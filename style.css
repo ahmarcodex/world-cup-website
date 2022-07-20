@@ -20,9 +20,54 @@ body {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(red);
+    background-color: red;
     padding: 10px 20px;
-    color: red;
-    font-weight: 700;
+    color: white;
+    font-weight: 200;
     border-radius: 5px;
+}
+
+.upcoming-match {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+
+}
+
+.upcoming-group {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 100;
+
+
+
+}
+
+.blog {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 100;
+
+
+}
+
+.goal {
+    background-color: black;
+    padding: 0 600px;
+}
+
+.goal-color {
+    color: whitesmoke;
+}
+
+.contact-display {
+    text-align: center;
+    color: rgba(245, 245, 245, 0.712);
+    font-size: 9px;
 }

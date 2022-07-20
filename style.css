@@ -99,13 +99,6 @@ body {
     margin-left: 20px;
 }
 
-.second .live-transfer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 224px;
-    height: 120px;
-    margin-left: 20px;
-}
 
 .transfer {
     background-color: wheat;
